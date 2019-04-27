@@ -1,15 +1,15 @@
-<h1 align="center">Pay</h1>
+<h1 align="center">xiaoyun/easy-pay</h1>
 
 <p align="center">
 <a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/v/unstable" alt="Latest Unstable Version"></a>
 <a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/license" alt="License"></a>
 </p>
 
 
 **！！请先熟悉 支付宝/微信 说明文档！！请具有基本的 debug 能力！！**
 
-
+**  **
+[GitBook在线文档【https://payment.doc.xiaoyun.studio】](https://payment.doc.xiaoyun.studio)
 
 ## 特点
 - 丰富的事件系统
@@ -284,3 +284,6 @@ class PayController
 
 ## LICENSE
 MIT
+
+
+[223]: https://payment.doc.xiaoyun.studio/v/1.0.0
