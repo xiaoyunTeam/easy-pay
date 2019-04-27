@@ -1,29 +1,15 @@
 <h1 align="center">Pay</h1>
 
 <p align="center">
-<a href="https://styleci.io/repos/100355112"><img src="https://styleci.io/repos/100355112/shield?branch=master" alt="StyleCI"></a>
-<a href="https://scrutinizer-ci.com/g/yansongda/pay/?branch=master"><img src="https://scrutinizer-ci.com/g/yansongda/pay/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
-<a href="https://scrutinizer-ci.com/g/yansongda/pay/build-status/master"><img src="https://scrutinizer-ci.com/g/yansongda/pay/badges/build.png?b=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/v/stable" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/v/unstable" alt="Latest Unstable Version"></a>
-<a href="https://packagist.org/packages/yansongda/pay"><img src="https://poser.pugx.org/yansongda/pay/license" alt="License"></a>
+<a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/v/unstable" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/xiaoyun/easy-pay"><img src="https://poser.pugx.org/xiaoyun/easy-pay/license" alt="License"></a>
 </p>
 
-该文档为 v2.x 版本，如果您想找 v1.x 版本文档，请点击[https://github.com/yansongda/pay/tree/v1.x](https://github.com/yansongda/pay/tree/v1.x)
-
-**注意：v1.x 与 v2.x 版本不兼容**
-
-
-开发了多次支付宝与微信支付后，很自然产生一种反感，惰性又来了，想在网上找相关的轮子，可是一直没有找到一款自己觉得逞心如意的，要么使用起来太难理解，要么文件结构太杂乱，只有自己撸起袖子干了。
 
 **！！请先熟悉 支付宝/微信 说明文档！！请具有基本的 debug 能力！！**
 
-欢迎 Star，欢迎 PR！
 
-laravel 扩展包请 [传送至这里](https://github.com/yansongda/laravel-pay)
-
-QQ交流群：690027516
 
 ## 特点
 - 丰富的事件系统
@@ -39,9 +25,6 @@ QQ交流群：690027516
 ## 运行环境
 - PHP 7.0+
 - composer
-
-> php5 请使用 v1.x 版本[https://github.com/yansongda/pay/tree/v1.x](https://github.com/yansongda/pay/tree/v1.x)
-
 
 ## 支持的支付方法
 ### 1、支付宝
@@ -125,7 +108,7 @@ QQ交流群：690027516
 
 ## 安装
 ```shell
-composer require yansongda/pay -vvv
+composer require xiaoyun/easy-pay -vvv
 ```
 
 ## 使用说明
@@ -278,10 +261,10 @@ class PayController
 ```
 
 ## 事件系统
-[请见详细文档](https://docs.pay.yansongda.cn/qi-ta/event)
+[请见详细文档](https://payment.doc.xiaoyun.studio/qi-ta/event)
 
 ## 详细文档
-[详细说明文档](https://docs.pay.yansongda.cn)
+[详细说明文档](https://payment.doc.xiaoyun.studio)
 
 ## 错误
 如果在调用相关支付网关 API 时有错误产生，会抛出 `GatewayException`,`InvalidSignException` 错误，可以通过 `$e->getMessage()` 查看，同时，也可通过 `$e->raw` 查看调用 API 后返回的原始数据，该值为数组格式。
