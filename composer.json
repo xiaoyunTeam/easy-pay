@@ -13,7 +13,7 @@
         "php": ">=7.0",
         "ext-openssl": "*",
         "ext-simplexml":"*",
-        "xiaoyun.studio/supports": "^v1.0",
+        "xiaoyun/supports": "^v1.1",
         "monolog/monolog": "^1.23",
         "symfony/http-foundation": "^3.0|^4.0",
         "symfony/event-dispatcher": "^3.0|^4.0"
